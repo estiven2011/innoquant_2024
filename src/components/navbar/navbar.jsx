@@ -1,13 +1,11 @@
 import React from "react";
-import imgNavbar from "../../assets/pexels-energepiccom-110469.jpg";
 import "../navbar/navbar.css";
-import { CiUser } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className=" fondo w-full flex  text-white font-semibold relative text-[1rem]">
+    <div className=" fondo w-full text-white font-semibold relative text-[1rem]">
       <div className=" flex w-full justify-between absolute mt-5 ">
         <h1 className=" ml-4 mt-0 text-xl">INNOQUANT</h1>
         <ul className=" gap-10 flex justify-center ">

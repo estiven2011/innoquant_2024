@@ -8,17 +8,17 @@ const Navbar = () => {
 
 
 
-<div className=" fondo w-full flex  mt-5"  >
-  <div className='  '>
-   
-  <ul className=' w-full gap-10 flex '>
+<div className=" fondo w-full flex  mt-5 relative"  >
+<div className=' flex w-full justify-between absolute '>
+  <img src="" alt="" />
+  <ul className=' gap-10 flex justify-center '>
     <li>Home</li>
     <li>Nosotros</li>
     <li>Contacto</li>
     <li>Servicios</li>
   </ul>
-  <ul>
-    <li><CiUser/></li>
+  <ul className=' gap-10 flex'>
+    <li className=' '><CiUser/></li>
     <li></li>
   </ul>
   </div>

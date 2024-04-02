@@ -1,18 +1,11 @@
 import { BrowserRouter,useRoutes } from "react-router-dom"
 import Navbar from "./components/navbar/navbar"
 import Home from "./pages/home/home"
-
+import Contacto from "./pages/contact/contacto"
 function Router (){
   let router = useRoutes([
      {path:"/",element:<Home/>}, 
-    /* {path:"/presentaciones",element:<Presentaciones/>},
-    {path:"/videos",element:<Videos/>},
-    {path:"/tutoriales",element:<Tutoriales/>},
-    {path:"/ejercicios",element:<Ejercicios/>},
-    {path:"/login",element:<Login/>},
-    {path:"/register",element:<Register/>},
-    {path:"/profile",element:<Profile/>}, */
-
+    {path:"/Contacto",element:<Contacto/>},
   ]
   )
   return router

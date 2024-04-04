@@ -2,6 +2,8 @@ import { BrowserRouter,useRoutes } from "react-router-dom"
 import Navbar from "./components/navbar/navbar"
 import Home from "./pages/home/home"
 import Contacto from "./pages/contact/contacto"
+
+
 function Router (){
   let router = useRoutes([
      {path:"/",element:<Home/>}, 

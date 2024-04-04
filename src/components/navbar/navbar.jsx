@@ -6,9 +6,11 @@ import { FaUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className=" w-full text-white font-semibold fixed text-[1rem] ">
+    <div className=" w-full text-white font-semibold text-[1rem] ">
       <div className=" flex w-full justify-between absolute mt-5 ">
-        <h1 className=" ml-4 mt-0 text-xl">INNOQUANT</h1>
+        <NavLink to="/">
+          <h1 className=" ml-4 mt-0 text-xl">INNOQUANT</h1>
+        </NavLink>
         <ul className=" gap-10 md:flex hidden justify-center ">
           <NavLink to="/" >
             <li className=" hover:border-b-2">Inicio</li>

@@ -23,15 +23,17 @@ function Home() {
           </div>
       </div>
 
+      {/* En pantallas md, se ponga la imagen encima del texto  */}
+
       {/* Sobre nosotros */}
       <section>
         <div className=' m-12'>
           <div className=' text-center'>
             <h1 className='text-[1.8rem] font-bold'>Sobre Nosotros</h1>
-            <div className=' parrafo flex   m-8 gap-8 justify-center'>
-              <img src={img_sobre_nostros}  className=' flex w-[50%] h-[30%]'/>
-              <div className='Objetivos flex flex-col w-[50%] h-[50%] items-center'>
-                <p className=' pb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut explicabo quia accusamus commodi asperiores impedit nihil officiis rem veritatis mollitia sit inventore, rerum a consequuntur, magnam iusto, nostrum ipsa iure!</p>
+            <div className=' parrafos flex m-8 gap-8 justify-center flex-col lg:flex-row pt-2 lg:justify-center'>
+              <img src={img_sobre_nostros}  className=' flex xl:w-[40%] lg:w-[45%] lg:h-[20%] md:w-[60%] sm:w-[60%] object-cover mb-4 md:mb-0 self-center'/>
+              <div className='Objetivos w-full md:w-[70%] lg:w-[50%] text-[1rem] self-center'>
+                <p className=' pb-5 xl:text-[1.1rem] lg:text-[1rem] md:text-[1.2rem] sm:text-[1.1rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut explicabo quia accusamus commodi asperiores impedit nihil officiis rem veritatis mollitia sit inventore, rerum a consequuntur, magnam iusto, nostrum ipsa iure!</p>
                 <h1 className=' pb-2 font-bold text-[1.2rem]'>Misión</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel asperiores eveniet, repellendus vitae adipisci, quod commodi voluptas nisi </p>
                 <h1 className=' pt-5 font-bold text-[1.2rem] '>Vision</h1>
@@ -43,7 +45,6 @@ function Home() {
           </div>
         </div>
       </section>
-
     </div>
   )
 }

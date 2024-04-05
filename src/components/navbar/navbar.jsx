@@ -9,33 +9,33 @@ const Navbar = () => {
     <div className=" w-full text-white font-semibold text-[1rem] ">
       <div className=" flex w-full justify-between absolute mt-5 ">
         <NavLink to="/">
-          <h1 className=" ml-4 mt-0 text-xl">INNOQUANT</h1>
+          <h1 className=" ml-4 mt-0 text-xl transition duration-300 ease-in-out hover:scale-110 ">INNOQUANT</h1>
         </NavLink>
         <ul className=" gap-10 md:flex hidden justify-center ">
           <NavLink to="/" >
-            <li className=" hover:border-b-2">Inicio</li>
+            <li className=" transition duration-300 ease-in-out hover:scale-110 ">Inicio</li>
           </NavLink>
           <NavLink>
-            <li className=" hover:border-b-2">Nosotros</li>
+            <li className="transition duration-300 ease-in-out hover:scale-110 ">Nosotros</li>
           </NavLink>
           <NavLink to="/contacto">
-            <li className=" hover:border-b-2">Contacto</li>
+            <li className=" transition duration-300 ease-in-out hover:scale-110 ">Contacto</li>
           </NavLink>
           <NavLink>
-            <li className=" hover:border-b-2">Servicios</li>
+            <li className=" transition duration-300 ease-in-out hover:scale-110  ">Servicios</li>
           </NavLink>
         </ul>
         <ul className="gap-10 md:flex hidden mr-5">
-          <NavLink>
+          <NavLink to="/login">
             <li className="">
-              <FaUser className=" text-[1.5rem] font-semibold" />
+              <FaUser className=" text-[1.5rem] font-semibold transition duration-300 ease-in-out hover:scale-110 " />
             </li>
           </NavLink>
         </ul>
       </div>
       <NavLink>
         <div className=" relative flex justify-end">
-          <RxHamburgerMenu className=" md:hidden mr-5 text-[1.5rem] font-semibold absolute mt-5 hover:animate-pop" />
+          <RxHamburgerMenu className=" md:hidden mr-5 text-[1.5rem] font-semibold absolute mt-5 transition duration-300 ease-in-out hover:scale-110 " />
         </div>
       </NavLink>
     </div>

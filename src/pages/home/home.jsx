@@ -17,7 +17,7 @@ function Home() {
               <p className=' text-lg'>Lorem ipsum dolor sit,amet consectetur adipisicing elit. Id illo similique delectus nostrum quos a unde,   ipsa cum ipsum necessitatibus totam omnis dicta modi ab cupiditate. Ratione facilis velit illum.
               </p>
               <form action="" className=' flex mt-6'>
-                <button className=' bg-[#10347e] w-[60%] py-1 rounded-2xl text-start px-5 flex items-center justify-between hover:animate-slide-out-right'>Contactanos <IoIosArrowRoundForward className=' text-[1.8rem]'/></button>
+                <button className=' bg-[#4265ac] w-[60%] py-1 rounded-2xl text-start px-5 flex items-center justify-between hover:animate-slide-out-right'>Contactanos <IoIosArrowRoundForward className=' text-[1.8rem]'/></button>
               </form>
             </div>
           </div>

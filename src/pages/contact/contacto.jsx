@@ -1,8 +1,12 @@
 import React from 'react'
+import "../contact/contacto.css"
 
 function Contacto() {
   return (
-    <div className=' bg-gray-950 h-[50vh]'></div>
+    <div className='ppal-contacto'>
+      <div className=' navbar fondoContacto h-[20vh]'></div>
+      <div>hopla</div>
+    </div>
   )
 }
 

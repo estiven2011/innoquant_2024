@@ -7,19 +7,19 @@ function login() {
       <div className="navbar-login h-[10vh]"></div>
       <div className=" flex justify-center">
         <div className=" conten-ppal-login flex justify-center h-[80vh] m-8 items-center w-[90%] ">
-          <div className=" conten-letf w-[50%] bg-[#CED4DA] rounded-l-2xl ">
+          <div className=" conten-letf w-[50%] bg-[#CED4DA] rounded-l-2xl hidden lg:block  ">
             <div className=" w-full bg-[#171824] h-[80vh] rounded-br-[60px] rounded-l-2xl">
               jj
             </div>
           </div>
 
-          <div className=" conten-right w-[50%] bg-[#171824] rounded-r-2xl shadow-[80px] ">
+          <div className=" conten-right w-[50%] bg-[#171824] rounded-r-2xl shadow-[80px]">
             <div className=" w-full bg-[#CED4DA] h-[80vh] rounded-tl-[60px] rounded-r-2xl">
 
-              <section class=" flex justify-center  text-black">
-                <div class="flex flex-col items-center justify-center w-[70%] mt-10">
-                  <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 text-black">
-                    <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <section class=" flex justify-center h-[80vh] text-black ">
+                <div class="flex flex-col items-center justify-center w-[70%]">
+                  <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 text-black h-[70vh]">
+                    <div class="p-6 space-y-4 md:space-y-6 sm:p-8 ">
                       <h1 class="text-xl font-bold leading-tight tracking-tight ">
                         Sign in to your account
                       </h1>

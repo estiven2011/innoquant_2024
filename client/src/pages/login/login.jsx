@@ -77,7 +77,7 @@ function login() {
                         <p class="text-sm font-light text-gray-600  flex justify-center">
                           Aun no tienes cuenta?{" "}
                           <a href="/register" class="font-medium text-primary-600  dark:text-primary-500 hover:text-[#171824]">
-                            Crear cuenta
+                             Crear cuenta
                           </a>
                         </p>
                       </form>

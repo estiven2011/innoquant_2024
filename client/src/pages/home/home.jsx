@@ -2,6 +2,9 @@ import React from "react";
 import "../home/home.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import img_sobre_nostros from "../../assets/sobreNosotros.png";
+import card1 from "../../assets/card1.jpg";
+import card2 from "../../assets/card2.jpg";
+import card3 from "../../assets/card3.jpg";
 
 function Home() {
   return (
@@ -20,7 +23,7 @@ function Home() {
             </p>
             <form action="" className=" flex mt-6">
               <button className=" bg-[#4265ac] w-[60%] py-1 rounded-2xl text-start px-5 flex items-center justify-between hover:animate-slide-out-right">
-                Contactanos{" "}
+                Contactanos
                 <IoIosArrowRoundForward className=" text-[1.8rem]" />
               </button>
             </form>
@@ -53,7 +56,7 @@ function Home() {
                 <p>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel
                   asperiores eveniet, repellendus vitae adipisci, quod commodi
-                  voluptas nisi{" "}
+                  voluptas nisi
                 </p>
                 <h1 className=" pt-5 font-bold text-[1.2rem] ">Vision</h1>
                 <p className=" pt-2">
@@ -75,56 +78,49 @@ function Home() {
         </div>
       </section>
 
+      {/* cards */}
+
       <section className=" cards-ppal">
-        <div className=" text-center font-bold text-[2rem] bg-gray-400 h-[80vh] w-full">
-          <h1 className=" p-4">Cards</h1>
-          <div className=" cards-all flex flex-wrap gap-5">
-            <div class="card-1 border-4 border-black block rounded-lg bg-gray-300">
-              <a href="#!">
-                <img
-                  class="rounded-t-lg"
-                  src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
-                  alt=""
-                />
-              </a>
-              <div class="p-6 text-surface text-black">
-                <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
-                <p class="mb-4 text-base">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+        <div className=" text-center font-bold bg-gray-400 h-auto w-full p-4">
+          <h1 className=" p-4 text-[2rem]">Cards</h1>
+          <div className=" cards-all flex flex-wrap gap-5 m-5 justify-evenly">
+            <div className=" card1 bg-[#363f8f] w-[30%] flex flex-col  items-center p-5 ">
+              <img src={card1} className=" h-[30vh] "/>
+              <div className=" info-card1">
+                <h5>CARD1</h5>
+                <p className=" text-lg ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                  autem, quidem, voluptates, quod
                 </p>
-                <button
-                  type="button"
-                  class="inline-block rounded bg-blue-300 px-6 pb-2 pt-2.5 text-xs font-medium text-black "
-                  data-twe-ripple-init
-                  data-twe-ripple-color="light"
-                >
-                  Button
-                </button>
+                <a href="/nosotros">
+                  <button className=" bg-slate-500 py-1 px-4 mt-3 rounded-md">+ Info</button>
+                </a>
               </div>
             </div>
-            <div class="block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
-              <a href="#!">
-                <img
-                  class="rounded-t-lg"
-                  src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
-                  alt=""
-                />
-              </a>
-              <div class="p-6 text-surface dark:text-white">
-                <h5 class="mb-2 text-xl font-medium leading-tight">Card title</h5>
-                <p class="mb-4 text-base">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+            <div className=" card2 bg-[#363f8f] w-[30%] flex flex-col items-center p-5">
+              <img src={card2} className=" h-[30vh] "/>
+              <div className=" info-card1">
+                <h5>CARD2</h5>
+                <p className=" text-lg ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                  autem, quidem, voluptates, quod
                 </p>
-                <button
-                  type="button"
-                  class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-                  data-twe-ripple-init
-                  data-twe-ripple-color="light"
-                >
-                  Button
-                </button>
+                <a href="/nosotros">
+                  <button className=" bg-slate-500 py-1 px-4 mt-3 rounded-md">+ Info</button>
+                </a>
+              </div>
+            </div>
+            <div className=" card3 bg-[#363f8f] w-[30%] flex flex-col items-center p-5">
+              <img src={card3} className=" h-[30vh] "/>
+              <div className=" info-card1">
+                <h5>CARD1</h5>
+                <p className=" text-lg ">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+                  autem, quidem, voluptates, quod
+                </p>
+                <a href="/nosotros">
+                  <button className=" bg-slate-500 py-1 px-4 mt-3 rounded-md">+ Info</button>
+                </a>
               </div>
             </div>
           </div>

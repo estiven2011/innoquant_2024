@@ -36,7 +36,7 @@ function login() {
                             name="email"
                             id="email"
                             class="text-black sm:text-sm border-gray-500 block w-full p-1.5 border-b-2  focus:outline-none pl-0 "
-                            placeholder="Nombre o correo electronico"
+                            placeholder="Nombre o correo electronico*"
                             required=""
                           />
                         </div>
@@ -48,7 +48,7 @@ function login() {
                             type="password"
                             name="password"
                             id="password"
-                            placeholder="••••••••"
+                            placeholder="••••••••*"
                             class="text-black sm:text-sm border-gray-500 block w-full p-1.5 border-b-2  focus:outline-none pl-0 "
                             required=""
                           />
@@ -59,7 +59,7 @@ function login() {
                             name="email"
                             id="email"
                             class="text-black sm:text-sm border-gray-500 block w-full p-1.5 border-b-2  focus:outline-none pl-0 "
-                            placeholder="correo@gmail.com"
+                            placeholder="correo@gmail.com*"
                             required="" />
                           
                         </div>

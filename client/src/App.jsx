@@ -6,6 +6,7 @@ import Login from "./pages/login/login"
 import Register from "./pages/register/register"
 import Nosotros from "./pages/nosotros/nosotros"
 import Servicios from "./pages/servicios/servicios"
+import Cotizacion from "./pages/cotizacion/cotizacion"
 
 
 function Router (){
@@ -16,6 +17,7 @@ function Router (){
     {path:"/register",element:<Register/>},
     {path:"/nosotros",element:<Nosotros/>},
     {path:"/servicios",element:<Servicios/>},
+    {path:"/cotizacion",element:<Cotizacion/>},
   ]
   )
   return router
